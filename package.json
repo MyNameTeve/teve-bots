@@ -12,6 +12,10 @@
     },
     "dependencies": {
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MyNameTeve/teve-bots"
+      },
     "devDependencies": {},
     "keywords": [
       "node",
