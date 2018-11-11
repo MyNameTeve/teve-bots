@@ -1,23 +1,25 @@
 {
-    "name": "teve-bots",
-    "version": "0.0.1",
-    "description": "An annoying bot",
-    "engines": {
-      "node": "11.1.0"
-    },
-    "main": "server.js",
-    "scripts": {
-      "prod": "node server",
-      "dev": "node server --dev"
-    },
-    "dependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/MyNameTeve/teve-bots"
-      },
-    "devDependencies": {},
-    "keywords": [
-      "node",
-      "heroku"
-    ]
-  }
+  "name": "teve-bots",
+  "version": "0.0.1",
+  "description": "An annoying bot",
+  "engines": {
+    "node": "11.1.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "prod": "node server",
+    "dev": "node server --dev"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MyNameTeve/teve-bots"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "node",
+    "heroku"
+  ]
+}
