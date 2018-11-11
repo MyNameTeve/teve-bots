@@ -1,0 +1,20 @@
+{
+    "name": "teve-bots",
+    "version": "0.0.1",
+    "description": "An annoying bot",
+    "engines": {
+      "node": "11.1.0"
+    },
+    "main": "server.js",
+    "scripts": {
+      "prod": "node server",
+      "dev": "node server --dev"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {},
+    "keywords": [
+      "node",
+      "heroku"
+    ]
+  }
